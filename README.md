@@ -23,7 +23,7 @@ Esta é uma aplicação web para cadastro e autenticação de usuários, desenvo
 
 1.  **Servidor Local:** Instale e inicie um ambiente de servidor web (ex: XAMPP, WAMP, Laragon).
 2.  **Código-Fonte:** Coloque os arquivos do projeto na pasta raiz do servidor (geralmente `htdocs` ou `www`).
-3.  **Navegação:** Acesse a aplicação pelo navegador em: `http://localhost/nome-do-arquivo/login.php` *(substitua `nome-do-arquivo` pelo nome real da pasta do projeto)*.
+3.  **Navegação:** Acesse a aplicação pelo navegador em: `http://localhost/nome-do-arquivo/index.php` *(substitua `nome-do-arquivo` pelo nome real da pasta do projeto)*.
 
     * *A partir daí, é possível registrar-se, autenticar-se, visualizar o painel principal e desconectar-se.*
 
