@@ -1,67 +1,52 @@
-# Projeto A1 - Sistema de Cadastro de Usuários (PHP) - Gabriela Demossi
+# Projeto A1 - Sistema de Cadastro de Usuários (PHP)
 
-## 📚 Sobre o projeto
-Projeto desenvolvido para a atividade A1, com aplicação dos conteúdos aprendidos tanto em aula quanto com alguns tutoriais do youtube.
+## 🚀 Visão Geral
 
-O sistema inclui:
-- Cadastro e Login de Usuários
-- Sessões para controle de acesso
-- Segurança aplicada (validação de dados e criptografia de senha)
-- Cadastro de Veículos atrelado ao usuário logado
-- Estilização com CSS
+Sistema de cadastro e login de usuários desenvolvido para a atividade acadêmica A1. Foca na aplicação prática de conceitos de desenvolvimento web com PHP, incluindo:
 
----
-
-## 🛠️ Tecnologias Utilizadas
-- PHP 7.4+
-- CSS3
-- HTML5
+* **Autenticação:** Cadastro e Login seguros (validação, criptografia de senha).
+* **Sessões:** Controle de acesso via sessões PHP.
+* **Dados:** Cadastro de veículos vinculado ao usuário logado.
+* **Interface:** Estilização básica com CSS.
 
 ---
 
-## ⚙️ Como executar o projeto
+## 🛠️ Tecnologias
 
-1. Instale um servidor local (recomendado XAMPP, WAMP ou Laragon).
-
-2. Coloque o projeto na pasta `htdocs` (ou equivalente):
-
-3. Acesse pelo navegador: http://localhost/projeto-a1/login.php
----
-
-4. Você poderá:
-- Cadastrar novos usuários.
-- Fazer login usando o email e senha cadastrados.
-- Ser redirecionado para a área logada (Dashboard).
-- Fazer logout.
+* PHP 7.4+
+* HTML5
+* CSS3
 
 ---
 
-## 📋 Funcionalidades
+## ⚙️ Como Executar
 
-- **Cadastro de Usuários:**
-- Formulário para nome, email e senha.
-- Validação e sanitização de dados.
-- Criação de objetos da classe `Usuario`.
+1.  **Servidor:** Instale e inicie um servidor web local (XAMPP, WAMP, Laragon).
+2.  **Projeto:** Copie a pasta do projeto para o diretório `htdocs` (ou equivalente) do seu servidor.
+3.  **Acesso:** Abra o navegador e acesse: `http://localhost/projeto-a1/login.php`
 
-- **Login de Usuários:**
-- Verificação de credenciais dentro de um array.
-- Login utilizando sessão PHP.
-- Criação opcional de cookies para manter sessão ativa.
+    * *Você poderá cadastrar usuários, fazer login, acessar uma área restrita e fazer logout.*
 
-- **Área Logada (Dashboard):**
-- Exibição de uma saudação personalizada para o usuário logado.
+---
 
-- **Logout:**
-- Destruição da sessão e remoção do cookie, encerrando o acesso.
+## ✨ Funcionalidades Chave
+
+* **Cadastro de Usuários:** Formulário com nome, email e senha. Inclui validação e sanitização.
+* **Login:** Autenticação com email/senha, utilizando sessões PHP (e opcionalmente cookies).
+* **Dashboard:** Área simples exibindo saudação ao usuário logado.
+* **Logout:** Encerramento seguro da sessão do usuário.
+
+---
 
 ## 🎨 Estilo Visual
 
-- **Azul para elementos principais.**
-- **Verde para botões de sucesso.**
-- **Branco para fundo e campos de entrada.**
-- **Layout simples e responsivo.**
+* Layout simples e responsivo.
+* Paleta principal: Azul (elementos chave), Verde (sucesso), Branco (fundo/campos).
 
+---
 
-## 📚 Referências
+## 📚 Referências e Fontes de Aprendizado
 
-Sistema de Cadastro/Login com PHP - Gustavo Neitzke
+* [PHP Documentation](https://www.php.net/manual/pt_BR/) - Documentação oficial do PHP (sessões, funções de hash, etc.).
+* [MDN Web Docs](https://developer.mozilla.org/pt-BR/docs/Web) - Referência para HTML, CSS e boas práticas web.
+* Tutoriais diversos sobre autenticação PHP e segurança básica (ex: W3Schools, canais no YouTube sobre desenvolvimento web).
