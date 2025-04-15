@@ -1,13 +1,13 @@
 # Projeto A1 - Sistema de Cadastro de Usuários (PHP)
 
-## academically_focused_header:
-
 **Autor:** _Kauan Amélio Cipriani_
 
 **Contexto Acadêmico:**
-* **Instituição:** UNOESC - Campus SMO
-* **Curso:** Ciências da Computação
+* **Instituição:** Universidade do Oeste de Santa Catarina (UNOESC) - Campus São Miguel do Oeste
+* **Curso:** Bacharelado em Ciências da Computação
 * **Disciplina:** Programação III
+* Objetivo da Disciplina: Aprofundar o conhecimento em programação para web, com foco em PHP, abordando conceitos de segurança, gerenciamento de sessões e interação com bancos de dados.
+* Objetivo do Projeto: Demonstrar a capacidade de aplicar os conceitos aprendidos na disciplina para desenvolver uma aplicação web funcional e segura, que inclua cadastro e autenticação de usuários.
 
 ## 🚀 Introdução
 
@@ -15,7 +15,6 @@ Esta é uma aplicação web para cadastro e autenticação de usuários, desenvo
 
 * **Autenticação Segura:** Registro e login com validação de dados e hashing de senha.
 * **Controle de Acesso:** Gerenciamento de sessões de usuário com PHP.
-* **Gerenciamento de Dados:** Permite registrar veículos associados à conta do usuário.
 * **Apresentação Visual:** Interface simples estilizada com CSS.
 
 ---
